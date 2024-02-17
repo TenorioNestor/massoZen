@@ -1,0 +1,10 @@
+.button{
+    border: none;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:1048px) {
+    .button{
+        display: none;
+    }
+}
