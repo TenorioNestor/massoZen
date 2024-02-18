@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: row;
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 4%, rgba(72,72,72,1) 100%);    height: 200px;
+    background: linear-gradient(180deg, rgb(104, 10, 138), rgba(70, 7, 92, 1) 58% 100%);
     width: 100%;
     margin-bottom: 0;
 }

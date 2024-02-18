@@ -7,6 +7,9 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Maps from '@mui/icons-material/AddLocationAlt';
 
+import localImage from "../../image/lotuslogo.png";
+
+
 export default function Footer(){
     return(
         <>
@@ -19,10 +22,10 @@ export default function Footer(){
                 </div>
                 <div className={styles.logo}>
                     <Image
-                    width={250}
+                    src={localImage}
+                    width={300}
                     height={200}
-                    src="/logoSemFundo.png"
-                    alt="Picture of the author"
+                    alt="Picture of the Lotus Massozen"
                     className={styles.foto}
                     />
                 </div>
