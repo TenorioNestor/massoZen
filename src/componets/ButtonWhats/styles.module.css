@@ -1,0 +1,11 @@
+.text{
+    font-size: 12pt;
+    padding-left: 4px;
+}
+
+
+@media screen and (max-width:780px){
+    .text{
+        font-size: 12pt;
+    }
+}

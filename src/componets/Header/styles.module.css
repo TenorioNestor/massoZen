@@ -36,10 +36,15 @@
     transform: scale(1.08) ;
 }
 
+
 @media screen and (max-width:780px) {
     .header{
         display: flex;
         flex-direction: column;
+    }
+    
+    .header:hover{
+        height: 200px;
     }
     .nav{
         display: none;
@@ -53,4 +58,8 @@
         justify-content: end;
         margin: 10px;
     }
+    .button{
+        display: none;
+    }
+
 }

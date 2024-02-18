@@ -33,3 +33,29 @@
     font-size: 14pt;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width:780px) {
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #8D2796;
+        width: 100%;
+        padding: 10px 0px;
+        margin: 0px;
+        
+    }
+    .maps{
+        padding: 0px;
+        margin: 0px;
+        height: 50%;
+    }
+    .titulo{
+        font-size: 20pt;
+    }
+    .subtitulo{
+        color:#c2b3cc;
+    }
+
+}

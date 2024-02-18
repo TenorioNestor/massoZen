@@ -8,7 +8,7 @@ let urlMaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.773231
 export default function Localizacao() {
     return (
         <section className={styles.section}>
-            <div>
+            <div className={styles.mapsFrame}>
                 <Iframe  
                     url = {urlMaps}
                     width="300px" 

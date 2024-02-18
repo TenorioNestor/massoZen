@@ -36,8 +36,39 @@
 }
 .subtitulo{
     font-size: 12pt;
+    color:#c2b3cc;
 }
 .lista{
     margin: 5% 0;
     font-size: 14pt;
+    color:rgb(255, 255, 255);
+}
+
+.span{
+    color: #ffffff;
+    font-size: 18pt;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:780px) {
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        margin: 0px;
+    }
+    .cardImage{
+        display: none;
+    }
+    .titulo{
+        font-size: 20pt;
+    }
+    .lista{
+        font-size: 14pt;
+    }
+    .span{
+        font-size: 12pt;
+        margin: 0px;
+    }
 }

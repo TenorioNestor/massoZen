@@ -2,6 +2,10 @@ import styles from './styles.module.css'
 import Image from 'next/image'
 import { Button } from 'flowbite-react';
 import TouchAppIcon from '@mui/icons-material/TouchApp';
+import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
+import Link from 'next/link';
+
+const linkApp = " https://massozen.glide.page"
 
 export default function CardApp() {
     return (
@@ -15,17 +19,20 @@ export default function CardApp() {
                         Em nosso APP você tem acesso:
                     </h2>
                     <ul className={styles.lista}>
-                        <li>Lista de serviços</li>
-                        <li>Avaliação de clientes</li>
-                        <li>Ultimas novidades</li>
-                        <li>Agendamentos</li>
-                        <li>requisitos para consulta</li>
+                        <li><CheckRoundedIcon /> Lista de serviços</li>
+                        <li><CheckRoundedIcon /> Avaliação de clientes</li>
+                        <li><CheckRoundedIcon /> Ultimas novidades</li>
+                        <li><CheckRoundedIcon /> Agendamentos</li>
+                        <li><CheckRoundedIcon /> requisitos para consulta</li>
                         <li>E muito mais...</li>
                     </ul>
                     <div className="fflex flex-wrap gap-2">
                         <Button gradientDuoTone="purpleToBlue">
-                           Clique aqui e venha conhecer!
-                            <TouchAppIcon sx={{ fontSize: 20 }} className={styles.icons} />
+                            <Link href={linkApp} target="_blanck">
+                                <span className={styles.span}>Clique aqui e venha conhecer!</span>
+                                <TouchAppIcon sx={{ fontSize: 20 }} />
+                            </Link>
+
                         </Button>
                     </div>
                 </div>

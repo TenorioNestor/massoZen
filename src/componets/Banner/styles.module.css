@@ -15,7 +15,10 @@
 }
 
 @media screen and (max-width:780px) {
+
     .foto{
-        width: 90%;
+        width: 100%;
+        filter: blur(none);
+        z-index: initial;
     }
 }

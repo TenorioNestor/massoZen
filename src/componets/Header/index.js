@@ -2,10 +2,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../../image/lotuslogo.png'
 import styles from './styles.module.css'
-import { Button } from 'flowbite-react';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ButtonWhats from '../ButtonWhats';
 
+const linkAbout = "https://massozen.glide.page/dl/about"
+const linkApp = "https://massozen.glide.page"
 
 export default function Header() {
     return (
@@ -18,17 +18,21 @@ export default function Header() {
                     alt="Picture of the Lotus Massozen"
                     className={styles.foto}
                     /> 
-                <ButtonWhats/>
+                <div className={styles.button}>
+                    <ButtonWhats/>
+                </div>
+                
+                
 
             </div>
             <nav className={styles.nav}>
                 <Link href='/' className={styles.link}>
                     Home
                 </Link>
-                <Link href='/sobre' className={styles.link}>
+                <Link href={linkAbout} target="_blank" className={styles.link}>
                     Sobre nós
                 </Link>
-                <Link href='/contatos' className={styles.link}>
+                <Link href={linkApp} target="_blank" className={styles.link}>
                     Contatos
                 </Link>
             </nav>

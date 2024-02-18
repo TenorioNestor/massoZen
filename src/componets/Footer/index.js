@@ -6,8 +6,12 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Maps from '@mui/icons-material/AddLocationAlt';
-
+import Link from 'next/link';
 import localImage from "../../image/lotuslogo.png";
+
+const whatApp = "https://encurtador.com.br/knp17"
+const intagram = "https://www.instagram.com/massozenterapeutica/"
+const Facebook = "https://www.facebook.com/Massozenterapeutica/"
 
 
 export default function Footer(){
