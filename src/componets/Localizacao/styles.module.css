@@ -1,0 +1,35 @@
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding:20px 0px 20px 20%;
+    background-color: #8D2796;
+    width: 100%;
+    
+}
+.maps{
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.maps:hover{
+    backdrop-filter: sepia(90%);
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 70%;
+}
+.titulo{
+    font-size: 30pt;
+}
+.subtitulo{
+    font-size: 12pt;
+}
+.endereco{
+    font-size: 14pt;
+    margin-bottom: 20px;
+}

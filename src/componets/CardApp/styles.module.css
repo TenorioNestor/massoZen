@@ -1,0 +1,43 @@
+
+.section{
+    width: 100%;
+    height: auto;
+    padding: 50px 10%;
+    background-color: #8D2796;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B160CE;
+    border-radius: 30px;
+    padding: 20px 0px;
+}
+
+.cardImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url('https://img.freepik.com/fotos-gratis/mulher-tomando-o-sal-de-banho-para-colocar-um-pouco-na-agua-antes-de-tomar-banho_23-2149239352.jpg?size=626&ext=jpg&ga=GA1.1.873984175.1708097757&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+    margin-right: 10%;
+}
+
+.text{
+    padding-left: 10%;
+}
+.titulo{
+    font-size: 30pt;
+}
+.subtitulo{
+    font-size: 12pt;
+}
+.lista{
+    margin: 5% 0;
+    font-size: 14pt;
+}

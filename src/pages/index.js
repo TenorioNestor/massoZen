@@ -1,6 +1,9 @@
 import Header from '../componets/Header'
 import Footer from '../componets/Footer'
 import Banner from '../componets/Banner'
+import Localizacao from '@/componets/Localizacao';
+import Card from '@/componets/CardApp';
+import CardApp from '@/componets/CardApp';
 
 export default function Home() {
   return (
@@ -8,9 +11,8 @@ export default function Home() {
       <main >
         <Header />
         <Banner/>
-        <div>
-          <h1>Meio</h1>
-        </div>
+        <Localizacao/>
+        <CardApp/>
         <Footer/>
       </main>
     </>

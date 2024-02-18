@@ -4,7 +4,7 @@ import Logo from '../../image/lotuslogo.png'
 import styles from './styles.module.css'
 import { Button } from 'flowbite-react';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-
+import ButtonWhats from '../ButtonWhats';
 
 
 export default function Header() {
@@ -18,12 +18,7 @@ export default function Header() {
                     alt="Picture of the Lotus Massozen"
                     className={styles.foto}
                     /> 
-                <div cclassName="flex flex-wrap gap-2">
-                    <Button gradientDuoTone="greenToBlue">
-                        <WhatsAppIcon sx={{ fontSize: 20 }} className={styles.icons}/>
-                        Vamos conversar!  
-                    </Button>                
-                </div>
+                <ButtonWhats/>
 
             </div>
             <nav className={styles.nav}>

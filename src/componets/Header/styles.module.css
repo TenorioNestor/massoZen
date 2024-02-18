@@ -35,3 +35,22 @@
 .link:hover{
     transform: scale(1.08) ;
 }
+
+@media screen and (max-width:780px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        display: none;
+    }
+    .foto{
+        display: none;
+    }
+    .cabecalho{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: end;
+        margin: 10px;
+    }
+}
