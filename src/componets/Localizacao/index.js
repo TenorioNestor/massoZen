@@ -9,9 +9,9 @@ export default function Localizacao() {
     return (
         <section className={styles.section}>
             <div className={styles.mapsFrame}>
-                <Iframe  
-                    url = {urlMaps}
-                    width="300px" 
+                <Iframe
+                    url={urlMaps}
+                    width="300px"
                     height="200px"
                     className={styles.maps}
                     display="block"
@@ -28,7 +28,11 @@ export default function Localizacao() {
                     Rua Teste, bairro centro<br />
                     Braço do Norte, SC
                 </h3>
-                <ButtonWhats/>
+                <ButtonWhats />
+            </div>
+            <div className={styles.music}>
+                <Iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=%2FAmbient_Epicuros%2Fterra-nova-2%2F" frameborder="0" allow="autoplay" />
+
             </div>
         </section>
     )

@@ -33,6 +33,9 @@
     font-size: 14pt;
     margin-bottom: 20px;
 }
+.music{
+    display: none;
+}
 
 @media screen and (max-width:780px) {
     .section{
