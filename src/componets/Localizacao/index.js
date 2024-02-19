@@ -22,18 +22,14 @@ export default function Localizacao() {
                     Estamos localizados
                 </h1>
                 <h2 className={styles.subtitulo}>
-                    Proximo da ...
+                    Proximo do Banco do Brasil
                 </h2>
                 <h3 className={styles.endereco}>
-                    Rua Teste, bairro centro<br />
-                    Braço do Norte, SC
+                Av. Felipe Schmidt, 1801 - Centro<br/> Braço do Norte - SC
                 </h3>
                 <ButtonWhats />
             </div>
-            <div className={styles.music}>
-                <Iframe width="100%" height="60" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&autoplay=1&feed=%2FAmbient_Epicuros%2Fterra-nova-2%2F" frameborder="0" allow="autoplay" />
 
-            </div>
         </section>
     )
 }

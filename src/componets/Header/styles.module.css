@@ -43,9 +43,6 @@
         flex-direction: column;
     }
     
-    .header:hover{
-        height: 200px;
-    }
     .nav{
         display: none;
     }

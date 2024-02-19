@@ -23,7 +23,7 @@ export default function CardApp() {
                         <li><CheckRoundedIcon /> Avaliação de clientes</li>
                         <li><CheckRoundedIcon /> Ultimas novidades</li>
                         <li><CheckRoundedIcon /> Agendamentos</li>
-                        <li><CheckRoundedIcon /> requisitos para consulta</li>
+                        <li><CheckRoundedIcon /> Requisitos para consulta</li>
                         <li>E muito mais...</li>
                     </ul>
                     <div className="fflex flex-wrap gap-2">
