@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '../../image/lotuslogo.png'
 import styles from './styles.module.css'
 import ButtonWhats from '../ButtonWhats';
+import Logo from '../../image/cartao_frente.png'
+
 
 const linkAbout = "https://massozen.glide.page/dl/about"
 const linkApp = "https://massozen.glide.page"

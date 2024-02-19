@@ -1,7 +1,7 @@
 import { ClassNames } from "@emotion/react";
 import styles from './styles.module.css'
 import Image from 'next/image'
-import Logo from '../../image/lotuslogo.png'
+import Logo from '../../image/cartao_frente.png'
 
 
 
