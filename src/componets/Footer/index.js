@@ -11,7 +11,7 @@ import localImage from "../../image/cartao_frente.png";
 const whatApp = "https://encurtador.com.br/knp17"
 const intagram = "https://www.instagram.com/massozenterapeutica/"
 const Facebook = "https://www.facebook.com/Massozenterapeutica/"
-const localization = "https://maps.app.goo.gl/yAkQfhhoRKtr38jf6"
+const localization = "https://maps.app.goo.gl/pWrSWXuVKMv6KcTbA"
 
 
 
@@ -48,7 +48,7 @@ export default function Footer() {
                 </div>
                 <div className={styles.contatos}>
                     <p className={styles.telefone}>Telefone: (48) 99611-4362</p>
-                    <p className={styles.adress}>Av. Felipe Schmidt, 1801 - Centro, Braço do Norte - SC</p>
+                    <p className={styles.adress}>Av. Getúlio Vargas, 1064 - Santa Augusta, Braço do Norte - SC</p>
                 </div>
             </footer>
         </>
